@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;500&display=swap');
+
+:root {
+    --primary-color: #DC2626;
+    --dark-gray: #6B7280;
+    --ow-color: #F3F4F6;
+}
+
+body {
+    font-family: 'Zen Maru Gothic', sans-serif;
+    margin: 0px;
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+/**container**/
+
+.fluid-container {
+    padding: 0.5rem 1rem;
+}
+.center-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+/**link**/
+
+.link {
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.5rem;
+    border: 1px
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+/**Lists **/
+
+.nonbullet {
+    list-style-type: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.25rem;
+}
+
+/**Navigation**/
+
+.navigation {
+    background-color: var(--primary-color);
+    color:white;
+    padding: 1rem 1.5rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.brand {
+    font-weight:bold;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+/**Header**/
+
+.hero {
+    padding: 2rem; 
+}
+
+.hero .hero-image {
+    max-width: 350px;
+    display: block;
+    text-align: center;
+    margin:auto;
+}
+
+.hero .hero-heading {
+    font-size: 3rem;
+    color: var(--dark-gray);
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.hero .heading-inverted {
+    color: var(--primary-color);
+}
+
+/**Section**/
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--ow-color);
+}
+
+/**Footer**/
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.footer .ul {
+    padding-inline-start: 0px;
+}
+
+.footer .footer-header {
+    font-weight:bold ;
+    font-size: large;
+}
