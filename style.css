@@ -4,6 +4,8 @@
     --primary-color: #DC2626;
     --dark-gray: #6B7280;
     --ow-color: #F3F4F6;
+    --color-white: 	#FFFFFF;
+    --rainbow-color: #f6bfbc;
 }
 
 body {
@@ -28,15 +30,20 @@ hr {
 /**link**/
 
 .link {
-    padding: 0.5rem 1rem;
-    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0.4rem 1rem;
+    text-decoration: none; 
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+    border: 1px;
+    text-align: center; 
 }
 
 .link-primary {
     background-color: var(--primary-color);
     color: white;
-    border-radius: 0.5rem;
-    border: 1px
+    
 }
 
 .link-secondary {
@@ -59,7 +66,7 @@ hr {
 
 .navigation {
     background-color: var(--primary-color);
-    color:white;
+    color:var(--color-white);
     padding: 1rem 1.5rem;
     border-bottom-left-radius: 1rem;
 }
@@ -69,7 +76,7 @@ hr {
 }
 
 .navigation .link {
-    color: white;
+    color: var(--color-white);
 }
 
 .navigation .nav-pills {
@@ -104,18 +111,24 @@ hr {
     color: var(--primary-color);
 }
 
+.hero .any-text {
+    text-align: center;
+}
+
 /**Section**/
 
 .section {
     padding: 2rem;
 }
 
-.section h1 {
-    text-align: center;
-}
-
 .ow {
     background-color: var(--ow-color);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
 }
 
 /**Footer**/
@@ -124,6 +137,13 @@ hr {
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
+    color: var(--color-white);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+ color: var(--color-white);
 }
 
 .footer .ul {
@@ -133,4 +153,38 @@ hr {
 .footer .footer-header {
     font-weight:bold ;
     font-size: large;
+}
+
+.border-3d {
+    border-style: outset;
+    padding: 1rem 1rem;
+    max-width: 60px;
+    border-color: red;
+    border-bottom-left-radius: 1rem;
+}
+
+.border-3d2 {
+    border-style: outset;
+    padding: 1rem 1rem;
+    border-color: red;
+    border-bottom-left-radius: 1rem;
+    text-align: right;
+}
+
+.list-item-inline .border-3d {
+    border-bottom-right-radius: 1rem;
+}
+
+.fmovies {
+    box-sizing: content-box; 
+    width: max-content;
+    height: max-content;
+    padding: 90px;  
+    border: 10px solid var(--primary-color);
+    border-radius: 1rem;
+    
+}
+
+.kl {
+    color: var(--rainbow-color);
 }
