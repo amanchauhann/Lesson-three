@@ -4,7 +4,7 @@
     --primary-color: #DC2626;
     --dark-gray: #6B7280;
     --ow-color: #F3F4F6;
-    --color-white: 	#FFFFFF;
+    --color-white: #FFFFFF;
     --rainbow-color: #f6bfbc;
 }
 
@@ -22,6 +22,7 @@ hr {
 .fluid-container {
     padding: 0.5rem 1rem;
 }
+
 .center-container {
     max-width: 600px;
     margin: auto;
@@ -32,18 +33,21 @@ hr {
 .link {
     box-sizing: border-box;
     padding: 0.4rem 1rem;
-    text-decoration: none; 
+    text-decoration: none;
+    margin: 1rem auto;
     margin-top: 3rem;
     margin-bottom: 1rem;
     border-radius: 2rem;
     border: 1px;
-    text-align: center; 
+    text-align: center;
+    max-width: 140px;
+
 }
 
 .link-primary {
     background-color: var(--primary-color);
     color: white;
-    
+
 }
 
 .link-secondary {
@@ -62,17 +66,24 @@ hr {
     padding: 0rem 0.25rem;
 }
 
+.showcase-list {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 3rem auto;
+}
+
 /**Navigation**/
 
 .navigation {
     background-color: var(--primary-color);
-    color:var(--color-white);
+    color: var(--color-white);
     padding: 1rem 1.5rem;
     border-bottom-left-radius: 1rem;
 }
 
 .brand {
-    font-weight:bold;
+    font-weight: bold;
 }
 
 .navigation .link {
@@ -90,14 +101,14 @@ hr {
 /**Header**/
 
 .hero {
-    padding: 2rem; 
+    padding: 2rem;
 }
 
 .hero .hero-image {
     max-width: 350px;
     display: block;
     text-align: center;
-    margin:auto;
+    margin: auto;
 }
 
 .hero .hero-heading {
@@ -142,8 +153,9 @@ hr {
     border-top-right-radius: 1rem;
 }
 
+S
 .footer .link {
- color: var(--color-white);
+    color: var(--color-white);
 }
 
 .footer .ul {
@@ -151,7 +163,7 @@ hr {
 }
 
 .footer .footer-header {
-    font-weight:bold ;
+    font-weight: bold;
     font-size: large;
 }
 
@@ -176,15 +188,14 @@ hr {
 }
 
 .fmovies {
-    box-sizing: content-box; 
+    box-sizing: content-box;
     width: max-content;
     height: max-content;
-    padding: 90px;  
+    padding: 90px;
     border: 10px solid var(--primary-color);
     border-radius: 1rem;
-    
 }
 
-.kl {
-    color: var(--rainbow-color);
+.showcase-blog {
+    padding-bottom: 10rem;
 }
