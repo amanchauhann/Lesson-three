@@ -26,6 +26,7 @@ hr {
 .center-container {
     max-width: 600px;
     margin: auto;
+    margin-bottom: 2rem;
 }
 
 /**link**/
@@ -130,6 +131,7 @@ hr {
 
 .section {
     padding: 2rem;
+    text-align: center;
 }
 
 .ow {
