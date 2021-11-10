@@ -34,28 +34,115 @@
     </nav>
 
     <header class="hero">
-        <h1 class="hero-heading">this is a <span class="heading-inverted">dummy </span>blog</h1>
+        <h1 class="hero-heading">Let's talk <span class="heading-inverted">HTTP </span>methods</h1>
     </header>
 
     <article class="center-container showcase-blog">
         <p>
-            Dummy text: Its function as a filler or as a tool for comparing the visual impression of different typefaces Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with 'real' content. This is required when, for example, the final text is not yet available. Dummy text is also known as 'fill text'. It is said that song composers of the past used dummy texts as lyrics when writing melodies in order to have a 'ready-made' text to sing with the melody. Dummy texts have been in use by typesetters since the 16th century.
+            <b>HTTP: Hypertext Transfer Protocol. It is the protocol of the internet, the one on which internet runs.</b>
+            <br>
+            <br>
+            It is an application layer protocol in the Internet protocol suite model for distributed, collaborative, hypermedia information systems. It is the foundation of data communication for the World Wide Web, where hypertext documents include hyperlinks to other resources that the user can easily access.
         </p>
         
         <h1>
-            The usefulness of nonsensical content
+            METHODS
         </h1>
 
         <p>
-            Dummy text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical. Due to its widespread use as filler text for layouts, non-readability is of great importance: human perception is tuned to recognize certain patterns and repetitions in texts. If the distribution of letters and 'words' is random, the reader will not be distracted from making a neutral judgement on the visual impact and readability of the typefaces (typography), or the distribution of text on the page (layout or type area). For this reason, dummy text usually consists of a more or less random series of words or syllables. This prevents repetitive patterns from impairing the overall visual impression and facilitates the comparison of different typefaces. Furthermore, it is advantageous when the dummy text is relatively realistic so that the layout impression of the final publication is not compromised.
+            Just as in Real World, we've people performing ACTIONS, be it walking, standing, running etc.
+            In HTTP, we call these 'Actions' as 'METHODS'.
+            There are 8 types of it:
+            <ul>
+                <li>
+                    GET Method
+                </li>
+
+                <li>
+                    HEAD Method
+                </li>
+
+                <li>
+                    POST Method
+                </li>
+
+                <li>
+                    PUT Method
+                </li>
+
+                <li>
+                    DELETE Method
+                </li>
+
+                <li>
+                    CONNECT Method
+                </li>
+
+                <li>
+                    OPTIONS Method
+                </li>
+
+                <li>
+                    TRACE Method
+                </li>
+
+            </ul>
+
+            Of which, the main are: GET, POST PUT, DELETE.
+            <br>
+            Just as we have some purspose for every 'action' in life, there is purpose for every 'method' as well, for the above methods they're acronymed as CRUD:
+            <ul>
+                <li>
+                    <b>Create</b>- if you are working on a website and you want to post something on it, you will be CREATING the post.
+                </li>
+
+                <li>
+                    <b>Read</b>- when you want to read something, you will be 'reading' the post.
+                </li>
+
+                <li>
+                    <b>Update</b>- if you want to update something on the website, you will be 'updating' the post.
+                </li>
+
+                <li>
+                    <b>Delete</b>- if you want to delete something on the website, you will be 'deleting' the post.
+                </li>
+                
+            </ul>
+
+            We use 'Methods' for these purposes:
+            <ul>
+                <li>
+                    <b>GET</b>- is used to fetch the data from server(that's why we say "get the data from server")
+                </li>
+                <li>
+                    <b>POST</b>- is used to create the resource or anything on server or website.(suppose when you tweet something, you are actually 'posting' it).
+                </li>
+                <li>
+                    <b>PUT</b>- is used to update resource in the server or website.
+                </li>
+                <li>
+                    <b>DELETE</b>- ofcourse, to 'delete' something from website or server.
+
+                </li>
+            </ul>
         </p>
 
         <h1>
-            Incomprehensibility or readability? That is the question.
+            Now what are the types, that is the question?
         </h1>
 
         <p>
-            The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century. Lorem Ipsum is composed in a pseudo-Latin language which more or less corresponds to 'proper' Latin. It contains a series of real Latin words. This ancient dummy text is also incomprehensible, but it imitates the rhythm of most European languages in Latin script. The advantage of its Latin origin and the relative meaninglessness of Lorum Ipsum is that the text does not attract attention to itself or distract the viewer's attention from the layout.
+            Now, as the user or client fetch data regulary, when the data is fetched and it does not affect the content on the server side or the real-time data is not changing, these methods are called <b>SAFE METHODS</b>, include: GET.
+            <br>
+            And vice-versa when something is fetched it changes the content on the server, they are called <b>UNSAFE METHODS</b>, include: POST, PUT and DELETE.
+            <br>
+            <br>
+            Then there is also something called <b>IDEMPOTENT</b>.
+            <br>
+            A HTTP method is idempotent if an identical request can be made once or several times in a row with the same effect while leaving the server in the same state. In other words, an idempotent method should not have any side-effects.
+            <br>
+            All safe methods are also idempotent, but not all idempotent methods are safe. For example, PUT and DELETE are both idempotent but unsafe.
         </p>
     </article>
 
