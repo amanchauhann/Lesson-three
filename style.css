@@ -26,6 +26,7 @@ hr {
 .center-container {
     max-width: 600px;
     margin: auto;
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
@@ -42,7 +43,7 @@ hr {
     border: 1px;
     text-align: center;
     max-width: 140px;
-
+    cursor: pointer;
 }
 
 .link-primary {
@@ -81,6 +82,7 @@ hr {
     color: var(--color-white);
     padding: 1rem 1.5rem;
     border-bottom-left-radius: 1rem;
+    size: 20em;
 }
 
 .brand {
@@ -200,4 +202,22 @@ hr {
 
 .showcase-blog {
     padding-bottom: 10rem;
+}
+
+.width-max {
+    max-width: 15%;
+}
+
+.newclass {
+    margin: 0em;
+}
+
+.date {
+    font-size: 0.9em;
+}
+
+.body-style {
+    max-width: 95%;
+    width: 100%;
+    margin: auto;
 }
